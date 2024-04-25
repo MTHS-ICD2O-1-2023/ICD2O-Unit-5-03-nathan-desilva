@@ -24,10 +24,6 @@ function myButtonClicked() {
 
     document.getElementById('answer').innerHTML = 'You can see a G rated movie alone.'
 
-  } else (age >= 1) {
-
-    document.getElementById('answer').innerHTML = 'Uh, you are too young for most things.'
-
   }
 
 }
