@@ -101,6 +101,11 @@
                 <mxCell id="35" style="edgeStyle=none;html=1;" edge="1" parent="1" source="32" target="34">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
+                <mxCell id="39" style="edgeStyle=none;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="32" target="38">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="620" y="330" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
                 <mxCell id="32" value="else if&lt;br&gt;age &amp;gt;= 9" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
                     <mxGeometry x="455" y="280" width="100" height="100" as="geometry"/>
                 </mxCell>
@@ -111,6 +116,11 @@
                 </mxCell>
                 <mxCell id="34" value="Show&lt;br&gt;&quot;You can see a G or PG&lt;br&gt;rated movie alone&quot;&amp;nbsp;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
                     <mxGeometry x="440" y="415" width="130" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" style="edgeStyle=none;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="38">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="630" y="330" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="38" value="else&amp;nbsp;&lt;br&gt;age &amp;gt;= 6" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
                     <mxGeometry x="630" y="280" width="100" height="100" as="geometry"/>
