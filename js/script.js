@@ -16,8 +16,17 @@ function myButtonClicked() {
 
     document.getElementById('answer').innerHTML = 'You can see a PG-13 movie alone.'
 
-  } else {
+  } else if (age >= 9) {
+
+    document.getElementById('answer').innerHTML = 'You can see a G or PG rated movie alone.'
+
+  } else if (age >= 6) {
 
     document.getElementById('answer').innerHTML = 'You can see a G rated movie alone.'
+
+  } else (age >= 1) {
+
+    document.getElementById('answer').innerHTML = 'Uh, you are too young for most things.'
   }
+
 }
